@@ -1,5 +1,5 @@
 ---
-path: "/dosted"
+path: "/project/dosted"
 slug: "dosted"
 title: "DOSTED"
 description: "is an app that believes in the power of everyone Doing One Small Thing Every Day to make the world a better place."
@@ -10,5 +10,5 @@ code: "The fun part of this app was creating the logic to handle 'streak' points
 githubURL: "https://www.github.com/justlask/dosted"
 liveURL: "http://dosted.herokuapp.com/"
 image: "http://justlask.com/images/dostedss.png"
-video: "https://youtu.be/SzuZ4WUBA_E"
+video: "https://www.youtube.com/embed/SzuZ4WUBA_E"
 ---

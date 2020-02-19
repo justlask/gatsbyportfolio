@@ -1,5 +1,5 @@
 ---
-path: "/crohniclev2"
+path: "/project/crohniclev2"
 slug: "crohniclev2"
 title: "Crohnicle v2"
 description: "is a social network for people with chronic illnesses to find friends and create groups for support and activities."
@@ -10,5 +10,5 @@ code: "This project is currently in development. This project is done using func
 githubURL: "https://github.com/justlask/crohnicle-react"
 liveURL: "https://crohnic.herokuapp.com/"
 image: "http://justlask.com/images/crohniclev2.png"
-video: "https://youtu.be/xYzf0lCwblU"
+video: "https://www.youtube.com/embed/xYzf0lCwblU"
 ---

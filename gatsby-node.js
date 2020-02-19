@@ -4,6 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 exports.createPages = ({ graphql, actions }) => {
 
   const { createPage } = actions;
+  const projectTemplate = path.resolve(`src/templates/project.js`)
 
   // const projectTemplate = path.resolve('src/templates/project.js');
 
@@ -15,6 +16,7 @@ exports.createPages = ({ graphql, actions }) => {
           html
           id
           frontmatter {
+            path
             slug
             title
             description
@@ -39,9 +41,8 @@ exports.createPages = ({ graphql, actions }) => {
     res.data.allMarkdownRemark.edges.forEach(({ node }) => {
       console.log(node)
       createPage({
-        path: `project/${node.frontmatter.slug}`,
-        component: path.resolve(`./src/templates/project.js`),
-        context: node.fields
+        path: node.frontmatter.path,
+        component: path.resolve(projectTemplate)
       })
     })
   })

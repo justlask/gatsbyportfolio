@@ -1,5 +1,5 @@
 ---
-path: "/reqresnext"
+path: "/project/reqresnext"
 slug: "reqresnext"
 title: "ReqResNext"
 description: "is a project management platform for small dev teams."
@@ -10,5 +10,5 @@ code: "There are many interconnected moving parts in project management, and the
 githubURL: "https://www.github.com/justlask/reqresnext"
 liveURL: "https://www.reqresnext.com/"
 image: "http://justlask.com/images/reqresnext.png"
-video: "https://youtu.be/ju-Pi-j0Y2A"
+video: "https://www.youtube.com/embed/ju-Pi-j0Y2A"
 ---
