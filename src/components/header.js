@@ -3,14 +3,13 @@ import { Link } from 'gatsby'
 
 import Logo from './logo'
 
-import logo from './../images/jlname.svg'
+import logo from './../images/namemarkpurple.svg'
 
 
 const header = () => {
   return (
     <header>
       <img src={logo} alt="Logo" />
-      <Logo />
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About Me</Link>
