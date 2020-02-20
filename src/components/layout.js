@@ -12,7 +12,6 @@ const Layout = ({ children }) => {
   const [ mode, setMode ] = useState(localStorage.getItem('jlmode') ? localStorage.getItem('jlmode') : 'light')
 
   useEffect(() => {
-    console.log(document.body)
     if (mode === 'dark') {
       localStorage.setItem('jlmode', 'dark')
       document.body.classList.remove('light');
