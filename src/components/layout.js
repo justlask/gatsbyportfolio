@@ -7,9 +7,12 @@ import Footer from './footer'
 
 import './layout.scss';
 
+const initialVal = typeof window === 'undefined' ? 'light' : localStorage.getItem('jlmode')
+
+
 const Layout = ({ children }) => {
-  // console.log(mode)
-  const [ mode, setMode ] = useState(undefined)
+
+  const [ mode, setMode ] = useState(initialVal)
 
 //   if (typeof window !== 'undefined') {
 //     localStorage.setItem('myCat', 'Tom');
