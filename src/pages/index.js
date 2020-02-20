@@ -32,22 +32,22 @@ const IndexPage = () => (
         <h3>I like to build cool things:</h3>
         <div className="boxes">
           <div className="box">
-            <Link to="/projects/crohniclev2"><h3>Crohnicle v2</h3></Link>
+            <Link to="/project/crohniclev2"><h3>Crohnicle v2</h3></Link>
             <p>Social network for people with chronic conditions to find friends and create groups for support and activities.</p>
             <img src={crohniclev2} alt="" />
-            <Link className="button" to="/projects/crohniclev2">View More</Link>
+            <Link className="button" to="/project/crohniclev2">View More</Link>
           </div>
           <div className="box">
-            <Link to="/projects/reqresnext"><h3>ReqResNext</h3></Link>
+            <Link to="/project/reqresnext"><h3>ReqResNext</h3></Link>
             <p>ReqResNext is a project management platform for small dev teams.</p>
             <img src={reqresnext} alt="" />
-            <Link className="button" to="/projects/reqresnext">View More</Link>
+            <Link className="button" to="/project/reqresnext">View More</Link>
           </div>
           <div className="box">
-            <Link to="/projects/dosted"><h3>DOSTED</h3></Link>
+            <Link to="/project/dosted"><h3>DOSTED</h3></Link>
             <p>A web app that believes in the power of everyone Doing One Small Thing Every Day to make the world a better place.</p>
             <img src={dosted} alt="" />
-            <Link className="button" to="/projects/dosted">View More</Link>
+            <Link className="button" to="/project/dosted">View More</Link>
           </div>
         </div>
       </div>

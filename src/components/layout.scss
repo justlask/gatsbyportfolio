@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Poppins:300,400,500,600,700&display=swap');
+
+$dark-background: #010101;
+$dark-text: white;
+$light-background: white;
+$light-text: #010101;
+$purple: #500089;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'DM Serif Display';
+}
+
+body.dark {
+  background-color: $dark-background;
+  color: $dark-text;
+  main {
+    color: $light-text;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 105%;
+    font-weight: 500;
+    color: $purple;
+  }
+  
+  h3 {
+    font-size: 26px;
+    font-weight: 400;
+    color: $dark-text;
+  }
+  h4 {
+    font-size: 22px;
+    font-weight: 300;
+    color: $dark-text;
+  }
+  
+  h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: $dark-text;
+    font-family: 'Poppins';
+  }
+  
+  h6 {
+    font-size: 18px;
+    font-weight: 300;
+    color: $dark-text;
+    font-family: 'Poppins';
+  }
+  p {
+    color: $dark-text;
+    font-family: 'Poppins' !important;
+  }
+  nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    color: $dark-text;
+  }
+  nav a {
+    transition: all 0.8s;
+    text-decoration: none;
+    font-size: 18px;
+    color: $dark-text;
+    font-family: 'Poppins';
+  }
+
+  nav a:hover {
+    transition: all 0.8s;
+    color: $purple;
+    font-family: 'Poppins';
+  }
+  .active {
+    font-weight: 600;
+    color: $purple;
+    font-family: 'Poppins';
+  }
+  .projectherocontainer {
+    background-color: $dark-background;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+  }
+  .herotext {
+    width: 40vw;
+    padding: 0px  100px 0px 0px;
+    color: $dark-text;
+  }
+  
+  .herotext h1 {
+    color: $purple;
+  }
+  //changethis
+  #viewmore {
+    background-color: #352233;
+    padding: 50px 10vw;
+  }
+  .projectbox {
+    min-width: 300px;
+    min-height: 400px;
+    transition: all 1s;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: $dark-background;
+    padding: 25px 15px;
+    border-radius: 16px;
+    /* box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.33); */
+    //changethis
+    box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.397);
+    margin: 0px 4vw 50px 0px;
+  }
+  
+  .box {
+    min-width: 200px;
+    min-height: 400px;
+    transition: all 1s;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: $dark-background;
+    padding: 25px 15px;
+    border-radius: 16px;
+    //changethis
+    box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.397);
+    margin-bottom: 50px;
+  }
+  .box a h3:hover {
+    color: $purple;
+  }
+  
+  .button {
+    transition: all 0.3s;
+    justify-self: flex-end;
+    align-self: flex-end;
+    padding: 5px 20px;
+    color: $purple;
+    border: 2px solid $purple;
+    background-color: $dark-background;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Poppins';
+  }
+  
+  .button:hover {
+    transition: all 0.3s;
+    background-color: $purple;
+    border: 2px solid $purple;
+    color: $dark-text;
+    cursor: pointer;
+  }
+  footer {
+    background: $dark-background;
+    padding: 50px 10vw;
+  }
+  
+  footer a {
+    transition: all 0.8s;
+    text-decoration: none;
+    font-size: 18px;
+    color: $dark-text;
+    padding: 0px 20px 20px 0px;
+    font-family: 'Poppins';
+  }
+  
+  footer a:hover {
+    color: $purple;
+    transition: all 0.8s;
+    font-family: 'Poppins';
+  }
+  
+  .fa {
+    transition: all 0.8s;
+    color: $purple;
+    font-size: 36px;
+    padding: 20px 20px 0px 0px;
+  }
+  
+  .fa:hover {
+    transition: all 0.8s;
+    color: $dark-text;
+  }
+}
+
+
+body.light {
+  background-color: $light-background;
+  color: $light-text;
+  main {
+    color: $dark-text;
+  }
+  h1 {
+    font-size: 48px;
+    line-height: 105%;
+    font-weight: 500;
+    color: $purple;
+  }
+  
+  h3 {
+    font-size: 26px;
+    font-weight: 400;
+    color: $light-text;
+  }
+  h4 {
+    font-size: 22px;
+    font-weight: 300;
+    color: $light-text;
+  }
+  
+  h5 {
+    font-weight: 400;
+    font-size: 18px;
+    color: $light-text;
+    font-family: 'Poppins';
+  }
+  
+  h6 {
+    font-size: 18px;
+    font-weight: 300;
+    color: $light-text;
+    font-family: 'Poppins';
+  }
+  p {
+    color: $light-text;
+    font-family: 'Poppins' !important;
+  }
+  nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    color: $light-text;
+  }
+  nav a {
+    transition: all 0.8s;
+    text-decoration: none;
+    font-size: 18px;
+    color: $light-text;
+    font-family: 'Poppins';
+  }
+
+  nav a:hover {
+    transition: all 0.8s;
+    color: $purple;
+    font-family: 'Poppins';
+  }
+  .active {
+    font-weight: 600;
+    color: $purple;
+    font-family: 'Poppins';
+  }
+  .projectherocontainer {
+    background-color: $light-background;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 50px;
+  }
+  .herotext {
+    width: 40vw;
+    padding: 0px  100px 0px 0px;
+    color: $light-text;
+  }
+  
+  .herotext h1 {
+    color: $purple;
+  }
+  //changethis
+  #viewmore {
+    background-color: #f7f7f7;
+    padding: 50px 10vw;
+  }
+  .projectbox {
+    min-width: 300px;
+    min-height: 400px;
+    transition: all 1s;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: $light-background;
+    padding: 25px 15px;
+    border-radius: 16px;
+    //changethis
+    /* box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.33); */
+    box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.397);
+    margin: 0px 4vw 50px 0px;
+  }
+  
+  .box {
+    min-width: 200px;
+    min-height: 400px;
+    transition: all 1s;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: $light-background;
+    padding: 25px 15px;
+    border-radius: 16px;
+    //changethis
+    box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.397);
+    margin-bottom: 50px;
+  }
+  .box a h3:hover {
+    color: $purple;
+  }
+  
+  .button {
+    transition: all 0.3s;
+    justify-self: flex-end;
+    align-self: flex-end;
+    padding: 5px 20px;
+    color: $purple;
+    border: 2px solid $purple;
+    background-color: $light-background;
+    border-radius: 8px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: 'Poppins';
+  }
+  
+  .button:hover {
+    transition: all 0.3s;
+    background-color: $purple;
+    border: 2px solid $purple;
+    color: $light-text;
+    cursor: pointer;
+  }
+  footer {
+    background: $light-background;
+    padding: 50px 10vw;
+  }
+  
+  footer a {
+    transition: all 0.8s;
+    text-decoration: none;
+    font-size: 18px;
+    color: $light-text;
+    padding: 0px 20px 20px 0px;
+    font-family: 'Poppins';
+  }
+  
+  footer a:hover {
+    color: $purple;
+    transition: all 0.8s;
+    font-family: 'Poppins';
+  }
+  
+  .fa {
+    transition: all 0.8s;
+    color: $purple;
+    font-size: 36px;
+    padding: 20px 20px 0px 0px;
+  }
+  
+  .fa:hover {
+    transition: all 0.8s;
+    color: $light-text;
+  }
+}
+
+
+header {
+  padding: 50px 10vw 25px 10vw;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+header button {
+  cursor: pointer;
+}
+
+.chevron {
+  align-self: center;
+}
+.herocontainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.herocontainer > img {
+  padding-right: 100px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10vw 50px 10vw;
+  justify-content: center;
+  min-height: 70vh;
+}
+
+.projectherocontainer iframe {
+  width: 560px;
+  height: 315px;
+}
+
+.hero img {
+  width: 25vw;
+  height: auto;
+}
+
+
+///box-shadow changethis
+.projectherocontainer > img {
+  height: 300px;
+  width: auto;
+  //changethis
+  box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.397);
+  border-radius: 16px;
+}
+
+
+
+#viewmore > div > h3 {
+  max-width: 45vw;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 0px;
+}
+
+.projectboxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 25px 0px 50px 0px;
+}
+
+
+
+.box a {
+  text-decoration: none;
+}
+
+
+.button:focus {
+  outline: none;
+}
+
+.box img,
+.projectbox img {
+  width: 100%;
+  height: auto;
+  margin: 20px 0px;
+  //changethis
+  box-shadow: 0px 3px 3px rgba(8, 8, 8, 0.397);
+  border-radius: 16px;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+}
+
+.viewmorelinks {
+  padding: 50px 0px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .viewmorelinks a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #500089;
+}
+
+.viewmorelinks a:hover {
+  color: #010101;
+  font-weight: 600;
+} */
+
+
+@media only screen and (max-width: 900px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header > a {
+    justify-content: center;
+  }
+
+  nav {
+    padding-top: 10px;
+  }
+  .boxes {
+    justify-content: center;
+  }
+  .box {
+    width: 100vw;
+  }
+  
+  .projectboxes {
+    justify-content: center;
+  }
+
+  .herocontainer,
+  .projectherocontainer {
+    flex-direction: column;
+  }
+  .herotext {
+    order: 2;
+    margin-top: 50px;
+    width: 70vw;
+    padding: 0 10%;
+  }
+
+  .herocontainer > img {
+    padding-top: 50px;
+    width: 50vw;
+    max-width: 200px;
+    justify-self: center;
+    align-self: center;
+    padding-right: 0;
+  }
+
+  .projectherocontainer img {
+    width: 80vw;
+    height: auto;
+  }
+
+  .projectherocontainer iframe {
+    width: 80vw;
+    height: auto;
+  }
+  #viewmore > div > h3 {
+    max-width: 100vw;
+  }
+  h1 {
+    font-size: 32px;
+    line-height: 1em;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  footer > div a {
+    font-size: 16px;
+  }
+ }
