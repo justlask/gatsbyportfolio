@@ -9,7 +9,7 @@ import './layout.scss';
 
 const Layout = ({ children }) => {
   // console.log(mode)
-  const [ mode, setMode ] = useState((typeof window !== undefined && localStorage.getItem('jlmode')) ? localStorage.getItem('jlmode') : 'light')
+  const [ mode, setMode ] = useState((typeof window !== undefined) ? localStorage.getItem('jlmode') ? localStorage.getItem('jlmode') : 'light' : null)
 
 //   if (typeof window !== 'undefined') {
 //     localStorage.setItem('myCat', 'Tom');
