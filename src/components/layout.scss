@@ -13,6 +13,7 @@ $purple: #500089;
 }
 
 body.dark {
+  transition: all 1s;
   background-color: $dark-background;
   color: $dark-text;
   main {
@@ -189,6 +190,7 @@ body.dark {
 
 
 body.light {
+  transition: all 1s;
   background-color: $light-background;
   color: $light-text;
   main {

@@ -9,12 +9,12 @@ import './layout.scss';
 
 const Layout = ({ children }) => {
   // console.log(mode)
-  const [ mode, setMode ] = useState(localStorage.getItem('mode') ? localStorage.getItem('mode') : 'light')
+  const [ mode, setMode ] = useState(localStorage.getItem('jlmode') ? localStorage.getItem('jlmode') : 'light')
 
   useEffect(() => {
     console.log(document.body)
     if (mode === 'dark') {
-      localStorage.setItem('mode', 'dark')
+      localStorage.setItem('jlmode', 'dark')
       document.body.classList.remove('light');
       document.body.classList.add(mode);
       console.log('go dark')
@@ -23,7 +23,7 @@ const Layout = ({ children }) => {
     else {
       console.log('go light')
       console.log(mode)
-      localStorage.setItem('mode', 'light')
+      localStorage.setItem('jlmode', 'light')
 
       document.body.classList.remove('dark');
       document.body.classList.add(mode);
