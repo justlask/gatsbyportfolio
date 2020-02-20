@@ -11,15 +11,19 @@ const Layout = ({ children }) => {
   // console.log(mode)
   const [ mode, setMode ] = useState(localStorage.getItem('jlmode') ? localStorage.getItem('jlmode') : 'light')
 
+//   if (typeof window !== 'undefined') {
+//     localStorage.setItem('myCat', 'Tom');
+// }
+
   useEffect(() => {
-    if (mode === 'dark') {
+    if (mode === 'dark' && typeof window !== 'undefined') {
       localStorage.setItem('jlmode', 'dark')
       document.body.classList.remove('light');
       document.body.classList.add(mode);
       console.log('go dark')
       console.log(mode)
     }
-    else {
+    else if (mode === 'light' && typeof window !== "undefined") {
       console.log('go light')
       console.log(mode)
       localStorage.setItem('jlmode', 'light')
