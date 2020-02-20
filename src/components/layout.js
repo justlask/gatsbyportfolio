@@ -9,10 +9,12 @@ import './layout.scss';
 
 const Layout = ({ children }) => {
   // console.log(mode)
-  const [ mode, setMode ] = useState(localStorage.getItem('jlmode') ? localStorage.getItem('jlmode') : 'light')
+  const [ mode, setMode ] = useState((typeof window !== undefined && localStorage.getItem('jlmode')) ? localStorage.getItem('jlmode') : 'light')
 
 //   if (typeof window !== 'undefined') {
 //     localStorage.setItem('myCat', 'Tom');
+// }
+// if (typeof window !== undefined) {
 // }
 
   useEffect(() => {
