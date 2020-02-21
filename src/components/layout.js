@@ -11,7 +11,7 @@ import './layout.scss';
 
 
 const Layout = ({ children }) => {
-  const initialMode = (typeof window !== 'undefined') ? (localStorage === undefined) ? 'light' : localStorage.getItem('jlmode') : 'light';
+  const initialMode = (typeof window !== 'undefined') ? (localStorage === undefined) ? 'light' : localStorage.getItem('jlmode') : 'dark';
   const [ mode, setMode ] = useState(initialMode)
 
 //   if (typeof window !== 'undefined') {
