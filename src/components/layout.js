@@ -7,12 +7,13 @@ import Footer from './footer'
 
 import './layout.scss';
 
-const initialVal = typeof window === 'undefined' ? 'light' : localStorage.getItem('jlmode')
+// const initialVal = typeof window !== 'undefined' ? 'light' : localStorage.getItem('jlmode')
+const initialMode = (typeof window !== 'undefined' && localStorage.getItem('jlmode') == undefined) ? 'light' : localStorage.getItem('jlmode')
 
 
 const Layout = ({ children }) => {
 
-  const [ mode, setMode ] = useState(initialVal)
+  const [ mode, setMode ] = useState(initialMode)
 
 //   if (typeof window !== 'undefined') {
 //     localStorage.setItem('myCat', 'Tom');
@@ -32,7 +33,6 @@ const Layout = ({ children }) => {
       console.log('go light')
       console.log(mode)
       localStorage.setItem('jlmode', 'light')
-
       document.body.classList.remove('dark');
       document.body.classList.add(mode);
     }
