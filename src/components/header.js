@@ -16,8 +16,8 @@ const header = (props) => {
   return (
     <header>
       <Link to="/"><img src={logo} alt="Logo" /></Link>
-      <button className="modebtn" onClick={handleMode}><img style={{height: 20}} src={icon} /></button>
       <nav>
+        <button className="modebtn" onClick={handleMode}><img src={icon} /></button>
         <Link to="/">Home</Link>
         <Link to="/about">About Me</Link>
         <Link to="/work">My Work</Link>

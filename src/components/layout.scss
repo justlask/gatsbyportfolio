@@ -24,12 +24,16 @@ body.dark {
   background-color: $dark-background;
   color: $dark-text;
   .modebtn {
+    height: 50px;
+    width: 50px;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 50px;
+    img {
+      width: 50px;
+      height: auto;
+    }
   }
   .modebtn:focus {
     outline: none;
@@ -216,6 +220,10 @@ body.light {
     align-items: center;
     height: 50px;
     width: 50px;
+    img {
+      width: 50px;
+      height: auto;
+    }
   }
   .modebtn:focus {
     outline: none;
