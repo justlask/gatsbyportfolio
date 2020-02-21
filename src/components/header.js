@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faSun } from '@fortawesome/free-solid-svg-icons'
 
-import Logo from './logo'
 
 import logo from './../images/namemarkpurple.svg'
-import icon from './../images/lightdarkblack.svg'
 
 
 const header = (props) => {
@@ -17,7 +17,7 @@ const header = (props) => {
     <header>
       <Link to="/"><img src={logo} alt="Logo" /></Link>
       <nav>
-        <button className="modebtn" onClick={handleMode}><img src={icon} /></button>
+        <button className="modebtn" onClick={handleMode}><FontAwesomeIcon icon={faSun}/></button>
         <Link to="/">Home</Link>
         <Link to="/about">About Me</Link>
         <Link to="/work">My Work</Link>

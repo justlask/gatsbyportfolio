@@ -24,16 +24,15 @@ body.dark {
   background-color: $dark-background;
   color: $dark-text;
   .modebtn {
-    height: 50px;
-    width: 50px;
+    background-color: inherit;
+    color: $lightpurple;
+    font-size: 20px;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    img {
-      width: 50px;
-      height: auto;
-    }
+    padding-top: 6px;
+    align-self: flex-start;
   }
   .modebtn:focus {
     outline: none;
@@ -214,16 +213,15 @@ body.light {
   background-color: $light-background;
   color: $light-text;
   .modebtn {
+    background-color: inherit;
+    font-size: 20px;
+    color: $light-text;
     border: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
-    width: 50px;
-    img {
-      width: 50px;
-      height: auto;
-    }
+    padding-top: 6px;
+    align-self: flex-start;
   }
   .modebtn:focus {
     outline: none;
