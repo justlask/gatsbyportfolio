@@ -145,7 +145,7 @@ body.dark {
     border-radius: 16px;
     //changethis
     box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.397);
-    margin-bottom: 50px;
+    margin: 25px;
   }
   .box a h3:hover {
     color: $lightpurple;
@@ -202,6 +202,12 @@ body.dark {
   .fa:hover {
     transition: all 0.8s;
     color: $dark-text;
+  }
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0px;
   }
 }
 
@@ -329,10 +335,12 @@ body.light {
     background-color: $light-background;
     padding: 25px 15px;
     border-radius: 16px;
+    margin: 25px;
     //changethis
     box-shadow: 0px 3px 6px rgba(8, 8, 8, 0.397);
-    margin-bottom: 50px;
+    // margin-bottom: 50px;
   }
+  
   .box a h3:hover {
     color: $purple;
   }
@@ -388,6 +396,12 @@ body.light {
   .fa:hover {
     transition: all 0.8s;
     color: $light-text;
+  }
+  .boxes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px 0px;
   }
 }
 
