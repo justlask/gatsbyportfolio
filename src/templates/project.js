@@ -1,14 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
+import SEO from "../components/seo"
 import Layout from '../components/layout'
-import FontAwesome from '@fortawesome/react-fontawesome'
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 export default function Project ({ data }) {
   const project = data.markdownRemark.frontmatter
-  console.log(project)
   return (
     <Layout> 
+      <SEO title={`${project.title}`}/>
       <section class="hero">
         <div class="projectherocontainer">
           <div class="herotext">

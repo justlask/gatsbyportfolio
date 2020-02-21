@@ -7,30 +7,17 @@ import Footer from './footer'
 
 import './layout.scss';
 
-// const initialVal = typeof window !== 'undefined' ? 'light' : localStorage.getItem('jlmode')
-
-
 const Layout = ({ children }) => {
-  const initialMode = (typeof window !== 'undefined') ? (localStorage === undefined) ? 'light' : localStorage.getItem('jlmode') : 'dark';
+  const initialMode = (typeof window !== 'undefined') ? (localStorage === undefined) ? 'light' : localStorage.getItem('jlmode') : 'light';
   const [ mode, setMode ] = useState(initialMode)
-
-//   if (typeof window !== 'undefined') {
-//     localStorage.setItem('myCat', 'Tom');
-// }
-// if (typeof window !== undefined) {
-// }
 
   useEffect(() => {
     if (mode === 'dark' && typeof window !== 'undefined') {
       localStorage.setItem('jlmode', 'dark')
       document.body.classList.remove('light');
       document.body.classList.add(mode);
-      console.log('go dark')
-      console.log(mode)
     }
     else if (mode === 'light' && typeof window !== "undefined") {
-      console.log('go light')
-      console.log(mode)
       localStorage.setItem('jlmode', 'light')
       document.body.classList.remove('dark');
       document.body.classList.add(mode);

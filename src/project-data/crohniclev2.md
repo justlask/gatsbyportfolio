@@ -1,4 +1,6 @@
 ---
+order: 1
+type: 'project'
 path: "/project/crohniclev2"
 slug: "crohniclev2"
 title: "Crohnicle v2"

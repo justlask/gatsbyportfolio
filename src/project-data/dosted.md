@@ -1,4 +1,6 @@
 ---
+order: 3
+type: 'project'
 path: "/project/dosted"
 slug: "dosted"
 title: "DOSTED"

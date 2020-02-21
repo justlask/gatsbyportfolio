@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Poppins:300,400,500,600,700&display=swap');
 // 1d1924
 // 2d223c
-$dark-background:#1d1924;
-$darkaccent-background: #2d223c;
+$dark-background:#231b29;
+$darkaccent-background: #1d1924;
 $dark-text: #dddbe1;
 
 
-$light-background: white;
-$lightaccent-background: #ead9f5;
+$light-background: #f7f7f7;
+$lightaccent-background: #f0eeee;
 $light-text: #010101;
 
 $lightpurple: #bbb1d0;
@@ -25,13 +25,9 @@ body.dark {
   color: $dark-text;
   .modebtn {
     background-color: inherit;
-    color: $lightpurple;
     font-size: 20px;
+    color: $lightpurple;
     border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 6px;
     align-self: flex-start;
   }
   .modebtn:focus {
@@ -76,7 +72,7 @@ body.dark {
     font-family: 'Poppins' !important;
   }
   nav {
-    width: 300px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
     color: $dark-text;
@@ -115,6 +111,7 @@ body.dark {
   }
   //changethis
   #viewmore {
+    transition: all 1s;
     background-color: $darkaccent-background;
     padding: 50px 10vw;
   }
@@ -217,10 +214,6 @@ body.light {
     font-size: 20px;
     color: $light-text;
     border: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 6px;
     align-self: flex-start;
   }
   .modebtn:focus {
@@ -265,7 +258,7 @@ body.light {
     font-family: 'Poppins' !important;
   }
   nav {
-    width: 300px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
     color: $light-text;
@@ -304,6 +297,7 @@ body.light {
   }
   //changethis
   #viewmore {
+    transition: all 1s;
     background-color: $lightaccent-background;
     padding: 50px 10vw;
   }

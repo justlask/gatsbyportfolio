@@ -1,4 +1,6 @@
 ---
+order: 2
+type: 'project'
 path: "/project/reqresnext"
 slug: "reqresnext"
 title: "ReqResNext"
