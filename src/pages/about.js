@@ -5,6 +5,9 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import face from '../images/myface.png'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+
 const About = () => {
   return (
     <Layout>
@@ -25,14 +28,13 @@ const About = () => {
             <p>
               <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Reading</b></span> <i>The Code Book</i> by Simon Singh<br></br>
               <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Listening</b></span> to a random playlist I've made<br></br>
-              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Learning</b></span> GraphQL<br></br><br></br>
+              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Learning</b></span> AWS<br></br><br></br>
             </p>
           </div>
         </div>
-        <a className="chevron" href="#viewmore"><i className="fa fa-chevron-down"></i></a>
+        <Link to="#viewmore" className="chevron"><FontAwesomeIcon icon={faChevronDown} /></Link>
       </section>
       <section id="viewmore">
-        <div>
           <h3>I’ve got a never give up, never give in attitude.<br></br>
             I guess you could say I’ve got guts!</h3>
           <div className="boxes">
@@ -73,7 +75,6 @@ const About = () => {
                 Front-End? Back-End? Both.
               </p>
             </div>
-          </div>
         </div>
       </section>
     </Layout>

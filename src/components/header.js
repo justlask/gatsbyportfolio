@@ -21,7 +21,7 @@ const header = (props) => {
         <Link to="/">Home</Link>
         <Link to="/about">About Me</Link>
         <Link to="/work">My Work</Link>
-        {/* <Link to="/blogs">Blogs</Link> */}
+        <Link to="/blogs">Blogs</Link>
       </nav>
     </header>
   )

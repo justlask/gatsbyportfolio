@@ -3,10 +3,13 @@ import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+
 import face from '../images/myface.png'
 
 export default function Work({ data }) {
-  console.log(data)
   const projects = data.allMarkdownRemark.edges
   return (
     <Layout>
@@ -16,14 +19,14 @@ export default function Work({ data }) {
           <img src={face} />
           <div className="herotext">
             <h1>I'm a full stack web developer,</h1><br></br>
-              <h3>Some of the technologies I use are:</h3>
-              <h5>React, Express, Node, MongoDB, HTML, CSS, JavaScript, React Native, Cypress</h5>
+              <h4>Some of the technologies I use are:</h4>
+              <h5>React, Express, Node, MongoDB, HTML, CSS, JavaScript, React Native, Cypress, graphQL</h5>
               <br></br>
-              <h3>But I'm always learning something new:</h3>
-              <h6>Recently I've picked up Meteor, and currently I'm learning graphQL and playing with Socket.IO</h6>
+              <h4>But I'm always learning something new:</h4>
+              <h6>Recently I've picked up graphQL, I'm playing with Socket.IO, learning AWS, and this is built with Gatsby!</h6>
           </div>
         </div>
-        <a className="chevron" href="#viewmore"><i className="fa fa-chevron-down"></i></a>
+        <Link to="#viewmore" className="chevron"><FontAwesomeIcon icon={faChevronDown} /></Link>
       </section>
       <section id="viewmore">
         <div>
@@ -34,7 +37,8 @@ export default function Work({ data }) {
             return (
               <div className="box">
               <Link to={project.path}><h3>{project.title}</h3></Link>
-              <p>{project.description}</p>
+              <p>{project.description}</p><br></br>
+              <p>{project.builtWith}</p>
               <img src={project.image} alt="" />
               <Link className="button" to={project.path}>View More</Link>
             </div>
@@ -63,13 +67,7 @@ export const projectsQuery = graphql`
             title
             description
             builtWith
-            problem
-            solution
-            code
-            liveURL
-            githubURL
             image
-            video
           }
         }
       }

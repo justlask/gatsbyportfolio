@@ -1,7 +1,10 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import Layout from '../components/layout'
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 export default function Project ({ data }) {
   const project = data.markdownRemark.frontmatter
@@ -26,7 +29,7 @@ export default function Project ({ data }) {
           </div>
           <iframe src={project.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        {/* <a class="chevron" href="#viewmore"><FontAwesome icon={faChevronDown}/></a> */}
+        <Link to="#viewmore" className="chevron"><FontAwesomeIcon icon={faChevronDown} /></Link>
       </section>
       <section id="viewmore">
         <div>
