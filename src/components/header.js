@@ -4,8 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSun } from '@fortawesome/free-solid-svg-icons'
 
 
-import lightlogo from './../images/namemarkpurple.png'
-import darklogo from './../images/namemarkwhite.png'
+import namemark from './../images/namemark.png'
 
 
 const header = (props) => {
@@ -14,13 +13,9 @@ const header = (props) => {
     return (props.mode === 'light') ? props.setMode('dark') : props.setMode('light')
   }
 
-  const handleLogo = () => {
-    return (props.mode === 'light') ? <img src={lightlogo} alt="Logo" /> : <img src={darklogo} alt="Logo" />
-  }
-
   return (
     <header>
-      <Link to="/">{handleLogo()}</Link>
+      <Link to="/"><img src={namemark} alt="Logo" /></Link>
       <nav>
         <button className="modebtn" onClick={handleMode}><FontAwesomeIcon icon={faSun}/></button>
         <Link to="/">Home</Link>

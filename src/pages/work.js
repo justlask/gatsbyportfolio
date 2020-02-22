@@ -1,5 +1,5 @@
 import React from 'react'
-import { graphql } from "gatsby"
+import { graphql, Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -28,15 +28,15 @@ export default function Work({ data }) {
       <section id="viewmore">
         <div>
           <h3>Check out some of my work:</h3>
-          <div class="boxes">
+          <div className="boxes">
           {projects.map((edge) => {
             const project = edge.node.frontmatter
             return (
-              <div class="box">
-              <a href={project.path}><h3>{project.title}</h3></a>
+              <div className="box">
+              <Link to={project.path}><h3>{project.title}</h3></Link>
               <p>{project.description}</p>
               <img src={project.image} alt="" />
-              <a class="button" href={project.path}>View More</a>
+              <Link className="button" to={project.path}>View More</Link>
             </div>
             )
           })}

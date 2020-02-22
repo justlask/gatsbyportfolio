@@ -31,15 +31,15 @@ export default function IndexPage({data}) {
         <div>
           <h3>I like to build cool things:</h3>
           <div className="boxes">
-          <div class="boxes">
+          <div className="boxes">
             {projects.map((edge) => {
               const project = edge.node.frontmatter
               return (
-                <div class="box">
-                <a href={project.path}><h3>{project.title}</h3></a>
+                <div className="box">
+                <Link to={project.path}><h3>{project.title}</h3></Link>
                 <p>{project.description}</p>
                 <img src={project.image} alt="" />
-                <a class="button" href={project.path}>View More</a>
+                <Link className="button" to={project.path}>View More</Link>
               </div>
               )
             })}
