@@ -59,10 +59,9 @@ body.light {
 
 # 3. layout.js
 > Here we have the logic for the modes using React hook useState and useEffect in layout.js<br><br>
-  > We set the mode to localStorage in order to persist the prefered mode
-  > As well as remove the old styling choice and add the new styling choice
-  > By adding 'mode' as a dependency of useEffect, each time mode changes useEffect will also be triggered which changes the styling
-  > We also pass down mode and setMode to the header, so that way we can use and update it with the button!
+> We set the mode to localStorage in order to persist the prefered mode, as well as remove the old styling choice and add the new styling choice<br>
+> By adding 'mode' as a dependency of useEffect, each time mode changes useEffect will also be triggered which changes the styling.<br>
+> We also pass down mode and setMode to the header, so that way we can use and update it with the button!
 <br><br>
 
 ```javascript

@@ -297,7 +297,8 @@ body.dark {
   
   .viewmorelinks {
     padding: 50px 0px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     display: flex;
     justify-content: space-between;
   }
@@ -599,7 +600,8 @@ body.light {
   
   .viewmorelinks {
     padding: 50px 0px;
-    width: 300px;
+    width: 100%;
+    max-width: 300px;
     display: flex;
     justify-content: space-between;
   }

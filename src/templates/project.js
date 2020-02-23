@@ -27,7 +27,8 @@ export default function Project ({ data }) {
               <a class="button" target="_blank" href={project.githubURL}>View Code</a>
             </div>
           </div>
-          <iframe src={project.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          {(project.video) ? <iframe src={project.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> : <img src={project.image}/>}
+
         </div>
         <Link to="#viewmore" className="chevron"><FontAwesomeIcon icon={faChevronDown} /></Link>
       </section>
