@@ -9,8 +9,7 @@ import './layout.scss';
 
 const Layout = ({ children }) => {
   const initialMode = (typeof window !== 'undefined') ? (localStorage === undefined) ? 'light' : localStorage.getItem('jlmode') : 'light';
-  const otherMode = (typeof window !== 'undefined' && localStorage === undefined) ? 'light' : localStorage.getItem('jlmode');
-  const [ mode, setMode ] = useState(otherMode);
+  const [ mode, setMode ] = useState('light');
 
   useEffect(() => {
     if (mode === 'dark' && typeof window !== 'undefined') {
