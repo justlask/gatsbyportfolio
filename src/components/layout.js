@@ -6,12 +6,17 @@ import Header from "./header"
 import Footer from './footer'
 
 import './layout.scss';
-
 const Layout = ({ children }) => {
   const initialMode = (typeof window !== 'undefined') ? (localStorage === undefined) ? 'light' : localStorage.getItem('jlmode') : 'light';
   const [ mode, setMode ] = useState(initialMode);
 
+
+
   useEffect(() => {
+    if (mode === null | mode === undefined) {
+      setMode('light');
+      localStorage.setItem('jlmode', 'light');
+    }
     if (mode === 'dark' && typeof window !== 'undefined') {
       localStorage.setItem('jlmode', 'dark')
       document.body.classList.remove('light');

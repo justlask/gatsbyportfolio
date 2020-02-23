@@ -75,6 +75,10 @@ body.light {
       const [ mode, setMode ] = useState(initialMode)
 
       useEffect(() => {
+        if (mode === null | mode === undefined) {
+          setMode('light');
+          localStorage.setItem('jlmode', 'light');
+        }
         if (mode === 'dark' && typeof window !== 'undefined') {
           localStorage.setItem('jlmode', 'dark')
           document.body.classList.remove('light');
