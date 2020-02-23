@@ -11,6 +11,6 @@ solution: "We needed a project management tool that better emphasized the whole 
 code: "There are many interconnected moving parts in project management, and therefore there is a great need to keep things organized. And although there are many pieces and information models, I aimed to create the most minimal visualization and easiest 'flow' possible. This includes keeping all components nicely organized in their own folders."
 githubURL: "https://www.github.com/justlask/reqresnext"
 liveURL: "https://www.reqresnext.com/"
-image: "http://justlask.com/images/reqresnext.png"
+image: "https://res.cloudinary.com/justlaskcloud/image/upload/v1582422556/MAIN/portfolio/reqresnext_x9bfes.png"
 video: "https://www.youtube.com/embed/ju-Pi-j0Y2A"
 ---

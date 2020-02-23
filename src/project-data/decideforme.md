@@ -11,6 +11,6 @@ solution: "People like GIFs. They make everything more fun! Reduce decision fati
 code: "Users add tasks that they need to do, which get added to a list. We randomly pick a task, search for a gif that matches the task with giphy API. Then, we use that gif as a background to make telling them what task they have to do next more enjoyable!"
 githubURL: "https://github.com/justlask/DecisionFatigue"
 liveURL: "http://decideforme.justlask.com/"
-image: "http://www.justlask.com/images/decideforme.png"
+image: "https://res.cloudinary.com/justlaskcloud/image/upload/v1582422556/MAIN/portfolio/decideforme_suz6qx.png"
 video: "https://www.youtube.com/embed/cfFUfE_LCs8"
 ---

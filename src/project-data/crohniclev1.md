@@ -11,5 +11,5 @@ solution: "Create a social network dedicated to serving the needs of those with 
 code: "I spent time to ensure that small details were completed, such as not allowing users to friend themselves, and allowing only group/event members to see the comment section. My favorite part of this project is the ability to sort through and find other users by medications or by condition."
 githubURL: "https://github.com/justlask/crohnicles"
 liveURL: "https://crohnicle.herokuapp.com/"
-image: "http://www.justlask.com/images/crohnicless.png"
+image: "https://res.cloudinary.com/justlaskcloud/image/upload/v1582422556/MAIN/portfolio/crohnicless_n6xpuz.png"
 ---

@@ -16,7 +16,7 @@ export default function Work({ data }) {
       <SEO title="My Work - Lauren Laskerr: Web Developer"/>
       <section className="hero">
         <div className="herocontainer">
-          <img src={face} />
+          <img className="myface" src={face} />
           <div className="herotext">
             <h1>I'm a full stack web developer,</h1><br></br>
               <h4>Some of the technologies I use are:</h4>

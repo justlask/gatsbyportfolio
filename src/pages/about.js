@@ -14,7 +14,7 @@ const About = () => {
       <SEO title="About Lauren Laskerr - Web Developer"/>
       <section className="hero">
         <div className="herocontainer">
-          <img src={face} />
+          <img className="myface" src={face} />
           <div className="herotext">
             <h1>Hello Again,</h1>
             <h1>I’m Lauren Laskerr.</h1>

@@ -11,6 +11,6 @@ solution: "Gamify changing the world by Doing One Small Thing Every Day (DOSTED)
 code: "The fun part of this app was creating the logic to handle 'streak' points, adding a point if a task was done within 24-48 hours, clearing points if a task was done after 48 hours, and doing nothing if a task was done before 24 hours. I also was able to use the ipStack API to calculate the users location, taking that information to generate a pin which I was then able to render on a map using Google Maps API to show where in the world people are DOSTING."
 githubURL: "https://www.github.com/justlask/dosted"
 liveURL: "http://dosted.herokuapp.com/"
-image: "http://justlask.com/images/dostedss.png"
+image: "https://res.cloudinary.com/justlaskcloud/image/upload/v1582422556/MAIN/portfolio/dostedss_ct7qv9.png"
 video: "https://www.youtube.com/embed/SzuZ4WUBA_E"
 ---

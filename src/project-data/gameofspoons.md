@@ -11,6 +11,6 @@ solution: "Take the spoon theory and gamify it. Allow people to 'experience' a w
 code: "There are a series of scenarios which the user goes through, they are given two choices, each with a different cost. Depending on the day of the week, different functions are called to make gameplay possible. The total number of spoons is kept track of throughout the game, and a function controls the user graphic which changes based upon the total number of spoons."
 githubURL: "https://github.com/justlask/GameOfSpoons"
 liveURL: "http://www.gameofspoons.justlask.com/"
-image: "http://www.justlask.com/images/gameofspoons.png"
+image: "https://res.cloudinary.com/justlaskcloud/image/upload/v1582422556/MAIN/portfolio/gameofspoons_id9yhe.png"
 video: "https://www.youtube.com/embed/qJ9lKBD4OIE"
 ---

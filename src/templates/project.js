@@ -28,7 +28,6 @@ export default function Project ({ data }) {
             </div>
           </div>
           {(project.video) ? <iframe src={project.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> : <img src={project.image}/>}
-
         </div>
         <Link to="#viewmore" className="chevron"><FontAwesomeIcon icon={faChevronDown} /></Link>
       </section>

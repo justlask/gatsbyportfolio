@@ -16,7 +16,7 @@ export default function IndexPage({ data }) {
       <SEO title="Lauren Laskerr - Full Stack Web Developer" />
       <section className="hero">
         <div className="herocontainer">
-          <img src={face} />
+          <img className="myface" src={face} />
           <div className="herotext">
             <h1>Hi, I’m Lauren Laskerr,</h1>
             <h3>Full Stack Web Developer</h3>
