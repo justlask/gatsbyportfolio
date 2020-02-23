@@ -123,6 +123,11 @@ body.dark {
     img {
       padding-right: 100px;
     }
+    .myface {
+      width: 25vw;
+      height: auto;
+      padding-right: 100px
+    }
   }
   .projectherocontainer {
     display: flex;
@@ -143,10 +148,6 @@ body.dark {
     padding: 0px 10vw 50px 10vw;
     justify-content: center;
     min-height: 70vh;
-    .myface {
-      width: 25vw;
-      height: auto;
-    }
   }
   .herotext {
     width: 40vw;
@@ -418,6 +419,11 @@ body.light {
     img {
       padding-right: 100px;
     }
+    .myface {
+      width: 25vw;
+      height: auto;
+      padding-right: 100px
+    }
   }
   .projectherocontainer {
     display: flex;
@@ -438,10 +444,6 @@ body.light {
     padding: 0px 10vw 50px 10vw;
     justify-content: center;
     min-height: 70vh;
-    img {
-      width: 25vw;
-      height: auto;
-    }
   }
   .herotext {
     width: 40vw;
@@ -661,8 +663,19 @@ body.light {
       width: 70vw;
       padding: 0 10%;
     }
+
+    .herocontainer {
+      .myface {
+        padding-top: 50px;
+        width: 50vw;
+        max-width: 200px;
+        justify-self: center;
+        align-self: center;
+        padding-right: 0;
+      }
+    }
   
-    .herocontainer > img {
+    .myface {
       padding-top: 50px;
       width: 50vw;
       max-width: 200px;
@@ -670,10 +683,7 @@ body.light {
       align-self: center;
       padding-right: 0;
     }
-    .projectherocontainer img {
-      width: auto;
-      height: 350px;
-    }
+    .projectherocontainer 
     .projectherocontainer iframe {
       width: auto;
       height: 350px;
@@ -735,15 +745,18 @@ body.light {
       width: 70vw;
       padding: 0 10%;
     }
-  
-    .herocontainer > img {
-      padding-top: 50px;
-      width: 50vw;
-      max-width: 200px;
-      justify-self: center;
-      align-self: center;
-      padding-right: 0;
+    .herocontainer {
+      .myface {
+        padding-top: 50px;
+        width: 50vw;
+        max-width: 200px;
+        justify-self: center;
+        align-self: center;
+        padding-right: 0;
+      }
     }
+
+
     .projectherocontainer img {
       width: 80vw;
       height: auto;
