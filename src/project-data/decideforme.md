@@ -1,7 +1,7 @@
 ---
 order: 6
 type: 'project'
-path: "/project/decideforme"
+path: "/projects/decideforme"
 slug: "decideforme"
 title: "Decide For Me"
 description: "is a gif-tastic task list that aims to keep task management fun and lighthearted."

@@ -1,7 +1,7 @@
 ---
 order: 5
 type: 'project'
-path: "/project/gameofspoons"
+path: "/projects/gameofspoons"
 slug: "gameofspoons"
 title: "Game of Spoons"
 description: "is a text and choice based game exploring the reality of living with a chronic illness."

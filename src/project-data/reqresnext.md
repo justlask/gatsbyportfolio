@@ -1,7 +1,7 @@
 ---
 order: 2
 type: 'project'
-path: "/project/reqresnext"
+path: "/projects/reqresnext"
 slug: "reqresnext"
 title: "ReqResNext"
 description: "is a project management platform for small dev teams."

@@ -1,7 +1,7 @@
 ---
 order: 4
 type: 'project'
-path: "/project/crohniclev1"
+path: "/projects/crohniclev1"
 slug: "crohniclev1"
 title: "Crohnicle v1"
 description: "is a social network for people with chronic conditions to find friends and create groups for support and activities."

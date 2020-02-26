@@ -1,7 +1,7 @@
 ---
 order: 3
 type: 'project'
-path: "/project/dosted"
+path: "/projects/dosted"
 slug: "dosted"
 title: "DOSTED"
 description: "is an app that believes in the power of everyone Doing One Small Thing Every Day to make the world a better place."
