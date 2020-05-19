@@ -26,7 +26,7 @@ const About = () => {
             </h5>
             <h5><b>I'm Currently:</b> <br></br></h5>
             <p>
-              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Reading</b></span> <i>The Code Book</i> by Simon Singh<br></br>
+              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Reading</b></span> <i>The Design of Everyday Things</i> by Don Norman<br></br>
               <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Listening</b></span> to a random playlist I've made<br></br>
               <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Learning</b></span> AWS<br></br><br></br>
             </p>
@@ -66,6 +66,15 @@ const About = () => {
               <h3>2020</h3>
               <h4>Now</h4>
               <p>
+                Freelance was fun.
+                <br></br>
+                But I have embarked on a new journey as a Full Stack Developer at GenVis.
+                <br></br><br></br>
+                I am proud to be a part of a great team of people, working to use technology to make the world a better, safer place.
+                <br></br><br></br>
+                See Good. Do Good.
+              </p>
+              {/* <p>
                 Freelance was fun. 
                 <br></br><br></br>
                 But I'm ready for a new challenge. I really want to work with great people building great tech.
@@ -73,7 +82,7 @@ const About = () => {
                 I’m looking for a collaborative environment where I can use what I already know, learn and use new things and grow with a great team.
                 <br></br><br></br>
                 Front-End? Back-End? Both.
-              </p>
+              </p> */}
             </div>
         </div>
       </section>
