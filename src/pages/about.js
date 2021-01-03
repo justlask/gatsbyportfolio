@@ -25,7 +25,7 @@ const About = () => {
             </h5>
             <h5><b>I'm Currently:</b> <br></br></h5>
             <p>
-              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Reading</b></span> <i>Risk Up Front</i> by Adam Josephs and Brad Rubenstein<br></br>
+              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Reading</b></span> <i>Algorithms to Live By</i> by Brian Christian and Tom Griffiths<br></br>
               <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Listening</b></span> to '80s dark wave or Bad Bunny.<br></br>
               <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Learning</b></span> Dart<br></br><br></br>
             </p>
