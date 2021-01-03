@@ -20,15 +20,14 @@ const About = () => {
             <h1>I’m Lauren Laskerr.</h1>
             <br></br>
             <h5>
-              I'm a full stack web developer with a thing for fun dress socks, physical books, pokemon go and accessibility.
+              I'm a full stack web developer who believes that we can use tech to solve some of the worlds most difficult problems.
               <br></br><br></br>
-              While I try not to take myself too seriously, I do take my work super seriously.<br></br><br></br>
             </h5>
             <h5><b>I'm Currently:</b> <br></br></h5>
             <p>
-              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Reading</b></span> <i>The Design of Everyday Things</i> by Don Norman<br></br>
-              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Listening</b></span> to a random playlist I've made<br></br>
-              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Learning</b></span> AWS<br></br><br></br>
+              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Reading</b></span> <i>Risk Up Front</i> by Adam Josephs and Brad Rubenstein<br></br>
+              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Listening</b></span> to '80s dark wave or Bad Bunny.<br></br>
+              <span style={{fontFamily: 'DM Serif Display', fontSize: '18px',}}><b>Learning</b></span> Dart<br></br><br></br>
             </p>
           </div>
         </div>
@@ -39,50 +38,39 @@ const About = () => {
             I guess you could say I’ve got guts!</h3>
           <div className="boxes">
             <div className="box">
-              <h3>2017-2018</h3>
+              <h3>2017-2019</h3>
               <h4>The Start</h4>
-              <p>I spent the better part of a decade working in specialty pharmacy, 
-                so when I was diagnosed with a chronic condition, I was put in a position where 
-                I could understand the situation from both sides.
-                <br></br><br></br>
-                This is where my journey started, with the bold idea that I could learn a new skill 
-                and use my previous experience to help shape the world.
-              </p>
-            </div>
-            <div className="box">
-              <h3>2019</h3>
-              <h4>Freelance</h4>
               <p>
-                At the beginning of 2019 I set a few goals for myself. The first was to get healthy, and
-                the second was to become a full stack web developer.
+                Tech has the ability to be the greatest equalizer the world has ever known.
                 <br></br><br></br>
-                To be able to go from idea to full execution of that idea. I spent some time doing 
-                freelance work and then I went to Ironhack Miami.
-                <br></br><br></br>
-                And won some things.
+                My journey began when I decided that I would learn how to bring an idea into existance.
+                After a couple years of self study, I went to Ironhack Miami - did some freelance work and won some things.
               </p>
             </div>
             <div className="box">
               <h3>2020</h3>
-              <h4>Now</h4>
+              <h4>The Covid Era</h4>
               <p>
-                Freelance was fun.
-                <br></br>
-                But I have embarked on a new journey as a Full Stack Developer at GenVis.
+                In 2020 I joined a great team at GenVis, as a full stack web developer.
                 <br></br><br></br>
                 I am proud to be a part of a great team of people, working to use technology to make the world a better, safer place.
                 <br></br><br></br>
                 See Good. Do Good.
               </p>
-              {/* <p>
-                Freelance was fun. 
+            </div>
+            <div className="box">
+              <h3>2021</h3>
+              <h4>Now + Beyond</h4>
+              <p>
+                They say, find something you love and let it kill you.
+                I say, find something you love and use it to make the world a better place.
                 <br></br><br></br>
-                But I'm ready for a new challenge. I really want to work with great people building great tech.
-                <br></br><br></br>
-                I’m looking for a collaborative environment where I can use what I already know, learn and use new things and grow with a great team.
-                <br></br><br></br>
-                Front-End? Back-End? Both.
-              </p> */}
+                I'm devoted to making technology that does just that.
+                If you are interested in trying to make sure we hit a technology renaissance, not dystopia, you're my people.
+                <br></br>
+                Email me.
+                <br></br>
+              </p>
             </div>
         </div>
       </section>

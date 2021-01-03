@@ -22,8 +22,8 @@ export default function Work({ data }) {
               <h4>Some of the technologies I use are:</h4>
               <h5>React, Express, Node, MongoDB, HTML, CSS, JavaScript, React Native, Cypress, graphQL</h5>
               <br></br>
-              <h4>But I'm always learning something new:</h4>
-              <h6>Recently I've picked up graphQL, I'm playing with Socket.IO, learning AWS, and this is built with Gatsby!</h6>
+              <h4>But I'm always building something new:</h4>
+              <h6>Recently I've been playing with Dart, and this is built with Gatsby!</h6>
           </div>
         </div>
         <Link to="#viewmore" className="chevron"><FontAwesomeIcon icon={faChevronDown} /></Link>

@@ -20,8 +20,9 @@ export default function IndexPage({ data }) {
           <div className="herotext">
             <h1>Hi, I’m Lauren Laskerr,</h1>
             <h3>Full Stack Web Developer</h3>
-            <p>with a thing for fun dress socks, physical books and accessibility,
-            oh, and playing with adobe illustrator for fun</p>
+            <p>that likes using tech to build things that matter,</p>
+            <p>and has a thing for fun dress socks, books, accessibility,</p>
+            <p>oh, and playing with figma for fun.</p>
             <br></br>
             <h6>React, Express, Node, MongoDB, HTML, CSS, JavaScript, React Native, Cypress, graphQL</h6>
           </div>
